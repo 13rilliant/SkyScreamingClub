@@ -1,8 +1,7 @@
-/*triad palette: http://paletton.com/#uid=33s0u0kllll9G-pfwrprafhyZ9d
-  tetrad palette: http://paletton.com/#uid=73s0u0klvlr9V-ifPrnrsfhzH9b*/
+/*color pallete #13 from https://www.canva.com/learn/website-color-schemes/*/
 
 body {
-	background-color: hsla(13, 50%, 39%, 1);
+	background-color: #008F95;
 	margin: 0;
 	padding: 0;
 	font-family: Verdana, sans-serif;
@@ -30,14 +29,22 @@ ul {
 	list-style-type: circle;
 }
 
-.header {
+.header-block {
 	width: 100%;
 	z-index: 100;
 	text-align: center;
+	background-color: hsla(351, 76%, 76%, 1);
+	height: 86px;
 }
 
+.aligner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+  }
+
 .domain-info {
-	color: #ffffff;
 	text-decoration: none;
 	margin: 3px;
 }
@@ -49,22 +56,17 @@ ul {
 	border-bottom: 2px solid #757575;
 	margin: 0px;
 	font-family: 'IBM Plex Serif', serif;
-	line-height: 54px;
 }
 
-.aligner {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-  }
-  
-  .aligner-item-top {
-	align-self: flex-start;
-  }
-  
-  .aligner-item-bottom {
-	align-self: flex-end;
-  }
+.sub-text {
+	opacity: 0;
+	transition: opacity .2s ease;
+	font-size: 10px;
+}
+
+.header-block:hover .sub-text {
+	opacity: .9;
+}
 
 .content {
 	width: 70%;
