@@ -9,6 +9,11 @@ body {
 	font-size: 100%;
 }
 
+/*temp rule*/
+body {
+	font-family: "Comic Sans MS" !important;
+}
+
 p {
 	font-size: .875em;
 }
