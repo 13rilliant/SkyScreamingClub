@@ -86,7 +86,7 @@ ul {
 	display: flex;
 	flex-direction: column;
 	width: 100%;
-    max-width: 900px;
+	max-width: 900px;
 }
 
 .paired-lines {
@@ -120,4 +120,29 @@ ul {
 		width: 86%;
 		margin: 0 7%;
 	}
+}
+
+/*snowflakes*/
+
+body {
+    margin: 0px;
+}
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+	top: 0px;
+	z-index: -1;
+}
+.snowflake {
+    padding-left: 15px;
+    font-family: Cambria, Georgia, serif;
+    font-size: 14px;
+    line-height: 24px;
+    position: fixed;
+    color: #FFFFFF;
+    user-select: none;
+    z-index: 1000;
+}
+.snowflake:hover {
+    cursor: default;
 }
