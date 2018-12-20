@@ -69,7 +69,7 @@ ul {
 .content {
 	width: 70%;
 	position: relative;
-	margin: 0 15%;
+	margin: auto;
 	margin-bottom: 15px;
 	transition: width .2s ease;
 	display: flex;
@@ -117,7 +117,7 @@ ul {
 @media screen and (max-width: 564px) {
 	div.content {
 		width: 80%;
-		margin: 0 auto;
+		margin: 5px auto;
 	}
 }
 
