@@ -16,6 +16,7 @@ body {
 
 p {
 	font-size: .875em;
+	font-size: 2.1vw;
 	margin: 1px;
 }
 
@@ -67,10 +68,9 @@ ul {
 }
 
 .content {
-	width: 70%;
+	width: 65%;
 	position: relative;
-	margin: auto;
-	margin-bottom: 15px;
+	margin: 16px auto;
 	transition: width .2s ease;
 	display: flex;
     justify-content: center;
@@ -78,7 +78,6 @@ ul {
 
 .paragraph-block{
 	background-color: #FAFAFA;
-	margin: 16px 0px;
 	box-shadow: 1px 1px 1px 0px #828282;
 	border-radius: 2px;
 	text-align: center;
@@ -89,7 +88,7 @@ ul {
 }
 
 .paired-lines {
-	margin: 20px;
+	margin: 10px 0;
 }
 
 .divider {
@@ -101,27 +100,18 @@ ul {
 }
 
 .img-wrapper {
-	justify-content: flex-end;
-    display: flex;
+	text-align:right;
 }
 
 #signature {
-	height: 150px;
-	width: 200px;
+	width: 45%;
 }
 
 .bold {
 	font-weight: bold;
 }
 
-@media screen and (max-width: 564px) {
-	div.content {
-		width: 80%;
-		margin: 5px auto;
-	}
-}
-
-/*snowflakes*/
+/*snowflakes sourced from here: https://www.kirupa.com/html5/the_falling_snow_effect.htm*/
 
 body {
     margin: 0px;
