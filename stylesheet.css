@@ -72,6 +72,8 @@ ul {
 	margin: 0 15%;
 	margin-bottom: 15px;
 	transition: width .2s ease;
+	display: flex;
+    justify-content: center;
 }
 
 .paragraph-block{
@@ -83,6 +85,8 @@ ul {
 	text-align: center;
 	display: flex;
 	flex-direction: column;
+	width: 100%;
+    max-width: 900px;
 }
 
 .paired-lines {
