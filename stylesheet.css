@@ -111,6 +111,20 @@ ul {
 	font-weight: bold;
 }
 
+@media only screen and (max-width: 568px) {
+	.content {
+		width: 90%;
+  }
+	p {
+		font-size: 3vw;
+		}
+}
+@media only screen and (min-width:800px) {
+	p{
+		font-size: 1em;	
+}
+}
+
 /*snowflakes sourced from here: https://www.kirupa.com/html5/the_falling_snow_effect.htm*/
 
 body {
