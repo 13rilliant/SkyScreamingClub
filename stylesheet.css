@@ -3,15 +3,10 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-family: Verdana, sans-serif;
+	font-family: "Smiler", "Comic Sans MS", Verdana, sans-serif;
 	font-size: 100%;
 	background-image: url(https://i.pinimg.com/originals/cc/08/78/cc0878f477f3853e3fa20e420fffa4f8.jpg);
 	background-size: 350px;
-}
-
-/*temp rule*/
-body {
-	font-family: "Comic Sans MS" !important;
 }
 
 p {
@@ -122,11 +117,16 @@ ul {
 @media only screen and (min-width:800px) {
 	p{
 		font-size: 1em;	
+	}
 }
+
+@font-face {
+    font-family: "Smiler";
+    src:url("Smiler.ttf");
 }
+
 
 /*snowflakes sourced from here: https://www.kirupa.com/html5/the_falling_snow_effect.htm*/
-
 body {
     margin: 0px;
 }
